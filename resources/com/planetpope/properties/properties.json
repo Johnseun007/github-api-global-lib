@@ -1,0 +1,29 @@
+{
+  "properties": {
+    "artifactory": {
+      "sean": "https://artifacts.dummy.dummy/"
+    },
+    "projects": {
+      "sean": "https://artifacts.dummy.dummy/",
+      "davies": "https://artifacts.dummy.dummy/"
+    },
+    "scm": {
+      "sean": "https://artifacts.dummy.dummy/",
+      "davies-certs": "https://artifacts.dummy.dummy/"
+    },
+    "broker": {
+      "stage": "https://artifacts.dummy.dummy/",
+      "dev": "https://artifacts.dummy.dummy/"
+    },
+    "api": {
+      "stage": "https://artifacts.dummy.dummy/",
+      "dev": "https://artifacts.dummy.dummy/",
+      "sandbox": "https://artifacts.dummy.dummy/",
+      "prod": {
+        "tx": "https://artifacts.dummy.dummy/",
+        "md": "https://artifacts.dummy.dummy/",
+        "rn": "https://artifacts.dummy.dummy/"
+      }
+    }
+  }
+}
